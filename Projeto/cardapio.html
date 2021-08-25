@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café</title>
+    <link href="cardapio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a id="contato" onmouseout="hide()" onmouseover="show()" href="#news"><img class="drop" src="./assets/keyboard_arrow_up_white_24dp.svg">Contact</a>
+        <a href="#news">Promotion</a>
+        <a href="./cardapio.html">Menu</a>
+        <a id="mouseloc" onmouseout="hide1()" onmouseover="show1()" href="#news"><img class="drop" id="dpone" src="./assets/keyboard_arrow_up_white_24dp.svg"> Local</a>
+     </div>
+     <div id="cont">
+        <img id="local" src=".//assets/location_on_white_24dp.svg">
+         <div id="ct1">99 99999-9999</div>
+     </div>
+     <img id="arr" src="./assets/arrow_right_white_24dp.svg">
+     
+     <div id="location">
+         <img id="house" src="./assets/home_white_24dp.svg">
+         <div id="lc1">City X, District X, Number X</div>
+     </div>
+     <img id="arr2" src="./assets/arrow_right_white_24dp.svg">
+
+
+     <div id="title">Menu</div>
+
+     <ul id="list">
+         <li onclick="menusee()">Hot Drinks</li>
+         <li onclick="menushow()">Cold Drinks</li>
+         <li onclick="doces()">Candy</li>
+         <li onclick="salgados()">Saldy</li>
+     </ul>
+
+                <!-- MENU DE BEBIDAS QUENTES -->
+
+     <div id="open">
+         <div id="open1"">
+            <img id="bc" src="./assets/blackcoffee.png">
+            <div class="namecf">Black Coffee</div>
+            <p class="descr">It is a method of preparing coffee by passing hot water under high pressure through ground coffee. </p>
+            <div id="bcp" class="qtd">0,50 $</div>
+
+         </div>
+         <div  id="open2">
+            <img id="bc2" src="./assets/Cappuccino .png">
+            <div class="namecf">Cappuccino</div>
+            <p class="descr">It consists of one third espresso coffee, one third steamed milk and one third steamed milk foam.</p>
+            <div id="bc2p" class="qtd">1,00 $</div>
+         </div>
+         <div id="open3">
+            <img id="bc3" src="./assets/cafe_com_Leite.png">
+            <div class="namecf">Coffee With Milk</div>
+            <div id="dow" class="descr">Coffe with milk is a mixture between two famous drinks: coffee and milk, and is a typical drink in Portugal and Brazil.</div>
+            <div id="dow2" class="qtd">0,50 $</div>
+         </div>
+     </div>
+
+     <!-- MENU DE BEBIDAS GELADAS -->
+
+     <div id="menu2">
+        <div id="gelada1">
+            <img id="nescau" src="./assets/achocolatado-saudavel.png">
+            <div class="namecf1">Chocolate Milk</div>
+            <div class="descr1">Chocolate drink made with nescau or toddy, your preference.</div>
+            <div class="qtd1">0,50 $</div>
+
+        </div>
+
+        <div id="gelada2">
+            <img id="cgel" src="./assets/coffeeice.png">
+            <div class="namecf1">Cold Coffee</div>
+            <div class="descr1">Iced coffee is a drink made from coffee, mixed with frozen food.</div>
+            <div id="qtd1p" class="qtd1">1,00 $</div>
+        </div>
+
+        <div id="gelada3">
+            <img id="mks" src="./assets/milkshake.png">
+            <div class="namecf1">MilkShake</div>
+            <div class="descr1">It is a thick drink obtained by liquefying fruit, vegetables or other ingredients in milk or water, such as chocolate, vanilla or caramel.</div>
+            <div id="qtd1p1" class="qtd1">3,00 $</div>
+            
+        </div>
+        </div>
+         
+        <!-- MENU DE DOCES -->
+
+        <div id="menu3">
+            <div id="doces1">
+                <img id="crss" src="./assets/croissant.png">
+                <div class="namecf2">Croissant</div>
+                <div class="descr2">It is a puff pastry cake in the shape of a crescent, made of flour, sugar, salt, milk, yeast, butter and egg for brushing.</div>
+                <div id="qtd2p" class="qtd2">0,50 $</div>
+
+            </div>
+
+            <div id="doces2">
+                <img id="dnt" src="./assets/donut.png">
+                <div class="namecf2">Donut</div>
+                <div class="descr2">It consists of a sugary fried dough, which can be covered with different types of sweet and colored icing, such as chocolate.</div>
+                <div id="qt2" class="qtd2">1,00 $</div>
+            </div>
+            <div id="doces3">
+                <img id="cup" src="./assets/cupcake.png">
+                <div class="namecf2">Cupcake</div>
+                <div class="descr2">It is a small cake designed to serve a single person, often baked in a small aluminum foil cup.</div>
+                <div id="qtt2" class="qtd2">0,50 $</div>
+            </div>
+        </div>
+
+        <!-- MENU DE SALGADOS -->
+
+        <div id="menu4">
+            <div id="salgados1">
+            <img id="past" src="assets/pasteel.png">
+            <div class="namecf3">Pastries</div>
+            <div class="descr3">Small tasty pastries with meat or chicken stuffing, it's your choice.</div>
+            <div id="qtd3p" class="qtd3">3,00 $</div>
+        </div>
+            <div id="salgados2">
+                <img id="cox" src="assets/Porção-Coxinha.png">
+                <div class="namecf3">Drumsticks</div>
+                <div class="descr3">Made with wheat flour dough and chicken stock, which involves a filling made with seasoned chicken meat, cheese, pepperoni.</div>
+                <div class="qtd3">3,00 $</div>
+                
+            </div>
+            <div id="salgados3">
+                <img id="pq" src="./assets/pãodequeijo.png">
+                <div class="namecf3">Cheese bread</div>
+                <div class="descr3">Tasty and crunchy cheese buns.</div>
+                <div id="qtd3p1" class="qtd3">2,00 $</div>
+                
+            </div>
+        </div>
+
+
+    
+
+
+
+
+     <script src="cardapio.js"></script>
+</body>
+</html>

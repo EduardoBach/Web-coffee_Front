@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(77, 40, 0));
+}
+
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to left,rgb(0, 0, 0),rgb(77, 40, 0));
+    font-family: 'Staatliches', cursive;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 14px 120px;
+    text-decoration: none;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: rgb(180, 146, 112);
+    border-radius: 50px;
+  }
+
+#slogan{
+    color: rgb(180, 146, 112);
+    margin-top: 125px;
+    font-size: 46px;
+    margin-left: 70px;
+    width: 700px;
+    height: 450px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#sub{
+    width: 750px;
+    height: 80px;
+    margin-left: 75px;
+    margin-top: -278px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.bt{
+    width: 700px;
+    height: 120px;
+    margin-left: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.bt a{
+    color: rgb(172, 115, 57);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 15px 70px;
+    background-color: rgb(77, 40, 0);
+    border: solid rgb(172, 115, 57)3px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.bt a:hover{
+    background-color: rgb(172, 115, 57);
+    border-radius: 50px;
+    color: white;
+}
+
+.bt2{
+    width: 700px;
+    height: 20px;
+    margin-left: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.t{
+    display: inline-block;
+}
+
+.tb{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.cf{
+    width: 15px;
+    height: 15px;
+}
+
+#screen{
+    width: 725px;
+    height: 545px;
+    margin-left: 795px;
+    margin-top: -480px;
+    border-radius: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cont{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(77, 40, 0);
+    opacity: 0;
+    position: absolute;
+    margin-left: 315px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2), 0 6px 20px 0 rgba(155, 155, 155, 0.2);
+    margin-top: 20px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+#ct1{
+    margin-left: 33%;
+    margin-top: 6%;
+}
+
+#arr{
+    position: absolute;
+    transform: rotate(90Deg);
+    margin-left: 420px;
+    opacity: 0;
+    height: 40px;
+    width: 40px;
+    margin-top: -11px;
+}
+
+#local{
+    margin-left: 22%;
+    margin-top: 13px;
+    position: absolute;
+}
+
+.drop{
+    position: absolute;
+    margin-left: 70px;
+    transform: rotate(180Deg);
+    height: 25px;
+    width: 25px;
+    margin-top: 0px;
+}
+
+#dpone{
+    margin-left: 50px;
+}
+
+#location{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(77, 40, 0);
+    opacity: 0;
+    position: absolute;
+    margin-left: 1230px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(155, 155, 155, 0.2), 0 6px 20px 0 rgba(155, 155, 155, 0.2);
+    margin-top: 20px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+#arr2{
+    position: absolute;
+    transform: rotate(90Deg);
+    margin-left: 1330px;
+    opacity: 0;
+    height: 40px;
+    width: 40px;
+    margin-top: -11px;
+}
+
+#lc1{
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+#house{
+    margin-left: 7%;
+    margin-top: 12px;
+    position: absolute;
+}
