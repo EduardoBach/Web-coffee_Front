@@ -11,7 +11,7 @@
 
 ![projectmenu](https://user-images.githubusercontent.com/88400048/130837272-e5c148e7-a2f6-4fe2-8b49-d2cdca35a46b.gif)
 
-<p>Esse seria o cardapio, fiz usando o javascript para que aparece os tipo de bebidas e  alimentos</p>
+<p>This would be the menu, I made using javascript so that the types of drinks and foods appear.</p>
 
 
 
